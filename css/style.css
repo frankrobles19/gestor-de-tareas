@@ -1,0 +1,92 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+
+
+}
+
+.contenedor-padre {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.89);
+
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.contenedor-nombre, .contenedor-fechaInicio, .contenedor-fechaFin, .contenedor-dificultad, .contenedor-descripcion {
+    margin-bottom: 20px;
+}
+
+.contenedor-nombre{
+    border-top: 5%;
+    border-color: yellowgreen;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #0c0b0b;
+    color: aliceblue;
+} 
+.fechas{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+.tareas-contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+
+}
+.contenedor-pendientes{
+    background-color: #3b3838;
+    color: aliceblue;
+}
+
+
+.contenedor-fechaInicio{
+    width: 50%;
+    margin: 1%;
+}
+
+.contenedor-fechaFin{
+    width: 50%;
+    margin: 1%;
+
+}
+
+.contenedor-completadas, .contenedor-fallidas {
+    margin-top: 20px;
+    padding: 60px;
+    
+}
