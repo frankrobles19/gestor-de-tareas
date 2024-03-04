@@ -90,3 +90,32 @@ button {
     padding: 60px;
     
 }
+
+
+@media (max-width: 768px) {
+    .contenedor-padre {
+        width: 90%;
+    }
+
+    .fechas, .tareas-contenedor {
+        flex-direction: column;
+    }
+
+    .contenedor-fechaInicio, .contenedor-fechaFin {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor-padre {
+        width: 100%;
+    }
+
+    .fechas, .tareas-contenedor {
+        flex-direction: column;
+    }
+
+    .contenedor-fechaInicio, .contenedor-fechaFin {
+        width: 100%;
+    }
+}
